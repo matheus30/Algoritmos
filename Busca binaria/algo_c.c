@@ -4,14 +4,12 @@ Autor: Matheus Felipe
 E-mail: mflm@cin.ufpe.br
 Public: cin.ufpe.br/~mflm
 
-Função de busca binaria em C, ela devolve a posição do valor caso for encontrado, se não ela devolve -1. Ultiliza da ideia
-dividir para conquistar a cada interação ela verifica o valor do meio e separa duas parte e busca entre os possiveis valores.
+FunÃ§Ã£o de busca binaria em C, ela devolve a posiÃ§Ã£o do valor caso for encontrado, se nÃ£o ela devolve -1. Ultiliza da ideia
+dividir para conquistar a cada interaÃ§Ã£o ela verifica o valor do meio e separa duas parte e busca entre os possiveis valores.
 
-Obs: A função pre-suponhe que o vetor a ser consultado esteja ordenado!
+Obs: A funÃ§Ã£o pre-suponhe que o vetor a ser consultado esteja ordenado!
 */
 
-
-// a função bb faz uma busca em um vector é se o valor procurado é encontrado ela retorna 1, caso contrario -1.
 int bb(int x, int n, int *v){
    int e, m, d;
    if (v[n-1] < x) return n;
